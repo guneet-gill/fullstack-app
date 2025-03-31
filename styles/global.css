@@ -2,11 +2,78 @@ body {
   background-color: lightblue;
 }
 
-
 .pdf-wrapper {
-  max-width:fit-content;
+  max-width: fit-content;
   max-height: fit-content;
   overflow-y: auto;
   margin: 0 auto;
   display: block;
+}
+
+/* Scroll icon styles */
+.scroll-icon {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  width: 30px; 
+  height: 30px; 
+  background-color: #007bff; 
+  border-radius: 5px; 
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  z-index: 1000; 
+  transition: transform 0.3s ease; 
+}
+
+.scroll-icon:hover {
+  transform: scale(1.1); 
+}
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  bottom: 20px;
+  right: 80px; 
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.popup input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.popup button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #45a049;
+}
+
+/* Scroll icon button text */
+.scroll-icon {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.scroll-icon:hover {
+  background-color: #0056b3;
 }
