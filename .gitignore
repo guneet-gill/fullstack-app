@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# MacOS files
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# npm package-lock and yarn.lock (optional, depending on your setup)
+package-lock.json
+yarn.lock
+
+# Build output
+.next/
+dist/
+
+# Next.js build files (if applicable)
+.next/
+.out/
+
+# OS generated files
+Thumbs.db
+.Thumbs.db
+Desktop.ini
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.swp
+*~

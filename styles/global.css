@@ -1,0 +1,12 @@
+body {
+  background-color: lightblue;
+}
+
+
+.pdf-wrapper {
+  max-width:fit-content;
+  max-height: fit-content;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: block;
+}
