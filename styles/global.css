@@ -12,6 +12,9 @@ body {
 
 /* Scroll icon styles */
 .scroll-icon {
+  background-image: url('/images/bot.png');
+  background-size: cover; /* Adjusts the image to cover the entire div */
+  background-position: center; 
   position: fixed;
   bottom: 20px; 
   right: 20px; 
